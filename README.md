@@ -2,8 +2,8 @@
 Unofficial reproduction &amp; modernization of ACL 2021 ESDS. Emotional support dialog generation using DeepSeek-R1, LoRA, and Constrained Decoding.
 
 **📖 Introduction**
-本项目是对 ACL 2021 顶会论文 *Towards Emotional Support Dialog Systems* 的现代化复现与底层升级。我们将原论文基于传统 Seq2Seq 的特征注入范式，重构为完全适用于现代 Decoder-Only 大模型（**DeepSeek-R1**）的特殊 Token 控制方案。
 
+本项目是对 ACL 2021 顶会论文 *Towards Emotional Support Dialog Systems* 的现代化复现与底层升级。我们将原论文基于传统 Seq2Seq 的特征注入范式，重构为完全适用于现代 Decoder-Only 大模型（**DeepSeek-R1**）的特殊 Token 控制方案。
 基于 ESConv 数据集，本项目不仅打通了全流程的 LoRA 微调，还实现了严格对齐学术标准的评估体系。
 
 **✨ 核心亮点 (Key Features)**
