@@ -10,5 +10,4 @@ Unofficial reproduction &amp; modernization of ACL 2021 ESDS. Emotional support 
 
 * 🔄 **架构重构与复现**：摒弃传统拼接，采用特殊 Token 注入与动态 `[Turn: N]` 标识，解决大模型轮次意识缺失问题。
 * 🧠 **受限解码 (Constrained Decoding)**：底层重写 `StrategyConstraintLogitsProcessor`，在 Joint 模式下干预 Logits 分布，强制实现“先选策略，再出回复”的精准控制。
-* ⚡️ **单卡极限优化**：深度整合 Flash Attention 2、Gradient Checkpointing 与全量字符串编码防截断策略。项目对消费级旗舰显卡（如 RTX 5090）极度友好，完美攻克长对话上下文带来的 OOM 与指标失真难题。
 
