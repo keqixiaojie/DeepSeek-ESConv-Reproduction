@@ -12,8 +12,3 @@ Unofficial reproduction &amp; modernization of ACL 2021 ESDS. Emotional support 
 * 🧠 **受限解码 (Constrained Decoding)**：底层重写 `StrategyConstraintLogitsProcessor`，在 Joint 模式下干预 Logits 分布，强制实现“先选策略，再出回复”的精准控制。
 * ⚡️ **单卡极限优化**：深度整合 Flash Attention 2、Gradient Checkpointing 与全量字符串编码防截断策略。项目对消费级旗舰显卡（如 RTX 5090）极度友好，完美攻克长对话上下文带来的 OOM 与指标失真难题。
 
----
-
-把这些内容放上去，这个开源项目的高级感立马就出来了！
-
-要不要我顺便帮你把 GitHub 仓库标准的 `README.md` 目录结构（比如快速开始、环境依赖、评估结果展示等模块）也搭个框架出来？
