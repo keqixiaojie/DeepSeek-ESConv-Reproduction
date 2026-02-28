@@ -1,0 +1,106 @@
+{
+    "mode": "joint",
+    "use_turn": true,
+    "sample_size": 1889,
+    "generation_metrics": {
+        "bleu-2": 4.873645791542886,
+        "rouge-l": 14.358888312404762,
+        "extrema": 85.90663033480868
+    },
+    "strategy_metrics": {
+        "accuracy": 0.29645314981471677,
+        "macro_f1": 0.21089976032054591
+    },
+    "confusion_matrix": [
+        [
+            166,
+            25,
+            6,
+            11,
+            48,
+            52,
+            4,
+            74
+        ],
+        [
+            32,
+            16,
+            5,
+            4,
+            21,
+            20,
+            0,
+            11
+        ],
+        [
+            28,
+            8,
+            3,
+            5,
+            22,
+            43,
+            0,
+            17
+        ],
+        [
+            36,
+            10,
+            2,
+            8,
+            34,
+            56,
+            8,
+            36
+        ],
+        [
+            50,
+            14,
+            6,
+            8,
+            60,
+            89,
+            1,
+            67
+        ],
+        [
+            24,
+            1,
+            6,
+            10,
+            56,
+            128,
+            10,
+            51
+        ],
+        [
+            12,
+            2,
+            1,
+            2,
+            19,
+            45,
+            5,
+            41
+        ],
+        [
+            62,
+            10,
+            0,
+            3,
+            52,
+            65,
+            4,
+            174
+        ]
+    ],
+    "labels": [
+        "[Question]",
+        "[Restatement or Paraphrasing]",
+        "[Reflection of feelings]",
+        "[Self-disclosure]",
+        "[Affirmation and Reassurance]",
+        "[Providing Suggestions]",
+        "[Information]",
+        "[Others]"
+    ]
+}

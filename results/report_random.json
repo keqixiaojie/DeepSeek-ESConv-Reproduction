@@ -1,0 +1,10 @@
+{
+    "mode": "random",
+    "sample_size": 1889,
+    "generation_metrics": {
+        "bleu-2": 4.087080312165329,
+        "rouge-l": 13.24370538409274,
+        "extrema": 86.1258567357707,
+        "ppl": 136.7481649852796
+    }
+}

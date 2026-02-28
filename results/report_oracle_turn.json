@@ -1,0 +1,11 @@
+{
+    "mode": "oracle",
+    "use_turn": true,
+    "sample_size": 1889,
+    "generation_metrics": {
+        "bleu-2": 5.619797769636945,
+        "rouge-l": 16.119395962653474,
+        "extrema": 86.65668978269545,
+        "ppl": 148.08494878591463
+    }
+}

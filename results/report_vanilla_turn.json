@@ -1,0 +1,11 @@
+{
+    "mode": "vanilla",
+    "use_turn": true,
+    "sample_size": 1889,
+    "generation_metrics": {
+        "bleu-2": 5.141718460037204,
+        "rouge-l": 14.766782238691182,
+        "extrema": 85.66598836677676,
+        "ppl": 189.506726398362
+    }
+}
